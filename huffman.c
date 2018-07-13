@@ -1,19 +1,16 @@
-
- 
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
 #include <windows.h>
  
-//----------------------------------------------------------------------------
- 
+
 typedef struct SIMBOLO *TSimbolo;
 typedef struct CODIGO  *TCodigo;
  
 struct SIMBOLO
 {
-   int      simbolo;
-   float    probabilidade;
+   int simbolo;
+   float probabilidade;
    TSimbolo rlink;
    TSimbolo llink;
    TSimbolo mother;
